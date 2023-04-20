@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link
+      rel="icon"
+      href="./access/img/IconLogo/Icon-logo2.jpg"
+      type="image/png"
+    />
+    <meta lang="en">
+    <meta charset="utf-8" />
+    <title>Solitude Coffee</title>
+    <link rel="stylesheet" href="./access/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Reset css-->
+    <link href="./access/css/reset.css" rel="stylesheet" />
+    <!-- Import Bootstrap and JQuery -->
+    <!-- <link rel="stylesheet"
+		  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<script
+		  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+		</script> -->
+    <!-- <link href="/vendors/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <!-- <script type="text/javascript" src="/vendors/js/bootstrap.min.js"></script> -->
+
+    <link rel="stylesheet" href="./access/css/style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./access/js/lightslider.js"></script>
+    <link href="./access/css/lightslider.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <script src="./access/js/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="navbar-customize">
+        <div class="max-width">
+          <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="logo"  id="home">
+            <a href="#home"><span>SOLITUDE</span> COFFEE </a>
+          </div>
+          <!-- <ul class ="menu">
+						<li><a href="#" class="menu-btn">STORY OF LOVE</a></li>
+						<li><a href="#" class="menu-btn">NEWS</a></li>
+						<li><a href="#" class="menu-btn">PRODUCT</a></li>
+						<li><a href="#" class="menu-btn">SPECIAL OFFER</a></li>
+						<li><a href="#" class="menu-btn">STORE</a></li>
+						<li><a href="#" class="menu-btn">CONTACT</a></li>
+					</ul> -->
+          <div class="menu" >
+            <div class="header-1">
+              <a href="./access/html/story.html">STORY OF LOVE</a>
+            </div>
+            <div class="header-2">
+              <a href="./access/html/blog.html">NEWS</a>
+            </div>
+            <div class="header-3">
+              <a href="./access/html/product.html">PRODUCT</a>
+            </div>
+            <div class="header-4">
+              <a href="./access/html/member-preferences.html">SPECIAL OFFER</a>
+            </div>
+            <div class="header-5">
+              <a href="#store">STORE</a>
+            </div>
+            <div class="header-6">
+              <a href="#contact">CONTACT</a>
+            </div>
+            <div class="header-search">
+              <i class="fa fa-search icon-search" aria-hidden="true"></i>
+              <div class="search-box">
+                <form class="search-form">
+                  <div class="radio-search">
+                    <input type="radio"  id="radio-blog" name="radio-btn-search" value="0" checked>
+                    <label for="radio-blog">Product</label>
+                    <input type="radio" id="radio-product" name="radio-btn-search"  value="1">
+                    <label for="radio-product">News</label>
+
+                  </div>
+                  <div class="control-search">
+                  <input type="text" minlength="1" pattern="^[a-zA-Z0-9_.-]*$" placeholder="Nhập Thông Tin" required>
+                  <button class="button-white" id="button-search">
+                      <i class="fa fa-search">
+                      </i>
+                  </button>
+                  </div>
+              </form>
+               </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main >
+        <!-- layout banner-->
+        <div class="layout-banner">
+          <div class="slider banner-slider">
+            <div class="slides banner-slides">
+              <!--radio buttons start-->
+              <input type="radio" name="radio-btn" id="radio1" />
+              <input type="radio" name="radio-btn" id="radio2" />
+              <input type="radio" name="radio-btn" id="radio3" />
+              <input type="radio" name="radio-btn" id="radio4" />
+              <!--radio buttons end-->
+              <!--slide images start-->
+              <div class="slide banner-slide first">
+                <a href="./access/html/member-preferences.html"
+                  ><img src="./access/img/Blog/Background-Blog-layout-1.jpg" alt=""
+                /></a>
+              </div>
+              <div class="slide banner-slide">
+                <a href="./access/html/member-preferences.html"
+                  ><img src="./access/img/Banner/Banner_Coffee-2.jpg" alt=""
+                /></a>
+              </div>
+              <div class="slide banner-slide">
+                <a href="./access/html/member-preferences.html"
+                  ><img src="./access/img/Banner/Banner_Coffee-3.jpg" alt=""
+                /></a>
+              </div>
+              <div class="slide banner-slide">
+                <a href="./access/html/member-preferences.html"
+                  ><img src="./access/img/Banner/Banner_Coffee-4.jpg" alt=""
+                /></a>
+              </div>
+              <!--slide images end-->
+              <!--automatic navigation start-->
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+              </div>
+              <!--automatic navigation end-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+              <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end-->
+          </div>
+          <!--image slider end-->
+        </div>
+        <!-- layout menu -->
+        <div class="menu-layout  list-layout max-width">
+          <div class="menu-header">
+            <div class="menu-tittle list-tittle">
+              <p>MENU</p>
+            </div>
+            <div class="show-all-menu">
+              <button class="btn-show-menu btn">
+                <a href="./access/html/order.html"> ALL PRODUCT </a>
+              </button>
+            </div>
+          </div>
+          <div class="menu-content">
+            <!----------------------1------------------------->
+            <div class="menu-content_1 product">
+              <div class="picture-product">
+                <a href="./access/html/product-item.html">
+                <img
+                  src="./access/img/Menu/Coffee-VietNam/cf_da_copy_a33d6e77f8da405bba9da541744dcea9_large.webp"
+                  alt=""
+                />
+              </a>
+              </div>
+              <div class="tittle-product">
+                <a href="./access/html/product-item.html">CÀ PHÊ ĐÁ</a>
+              </div>
+              <div class="price">
+                <p>35.000 Đ</p>
+              </div>
+              <div class="order">
+                <button class="btn-order btn">
+                  <a href="./access/html/order.html"> MUA NGAY</a>
+                </button>
+              </div>
+            </div>
+            <!----------------------2------------------------->
+            <div class="menu-content_2 product">
+              <div class="picture-product">
+                <a href="./access/html/product-item.html">
+                <img
+                  src="./access/img/Menu/Coffee-VietNam/bac_siu_099c749a7d6044bc9f7f0eac7f57808f_large.webp"
+                  alt=""
+                />
+              </a>
+              </div>
+              <div class="tittle-product">
+                <a href="./access/html/product-item.html">BẠC SỈU</a>
+              </div>
+              <div class="price">
+                <p>40.000 Đ</p>
+              </div>
+              <div class="order">
+                <button class="btn-order btn">
+                  <a href="./access/html/order.html"> MUA NGAY</a>
+                </button>
+              </div>
+            </div>
+            <!----------------------3------------------------->
+            <div class="menu-content_3 product">
+              <div class="picture-product">
+                <a href="./access/html/product-item.html">
+                <img
+                  src="./access/img/Menu/Coffee-VietNam/cfsd_615a3cb2b1e342d2b1986bfeb6572070_large.webp"
+                  alt=""
+                />
+              </a>
+              </div>
+              <div class="tittle-product">
+                <a href="./access/html/product-item.html">CÀ PHÊ SỮA</a>
+              </div>
+              <div class="price">
+                <p>50.000 Đ</p>
+              </div>
+              <div class="order">
+                <button class="btn-order btn">
+                  <a href="./access/html/order.html"> MUA NGAY</a>
+                </button>
+              </div>
+            </div>
+            <!----------------------4------------------------->
+            <div class="menu-content_4 product">
+              <div class="picture-product">
+                <a href="./access/html/product-item.html">
+                <img
+                  src="./access/img/Menu/Matcha-Socola/chocolate_ice_blended_45497439e5ea4aa980b8c63078608a2d_large.webp"
+                  alt=""
+                />
+              </a>
+              </div>
+              <div class="tittle-product">
+                <a href="./access/html/product-item.html">SÔ-CÔ-LA ĐÁ</a>
+              </div>
+              <div class="price">
+                <p>55.000 Đ</p>
+              </div>
+              <div class="order">
+                <button class="btn-order btn">
+                  <a href="./access/html/order.html"> MUA NGAY</a>
+                </button>
+              </div>
+            </div>
+            <!----------------------5------------------------->
+            <div class="menu-content_5 product">
+              <div class="picture-product">
+                <a href="./access/html/product-item.html">
+                <img
+                  src="./access/img/Menu/Matcha-Socola/matchadaxay_5d6b255ccee94330b847b6ed3fece40c_large.webp"
+                  alt=""
+                />
+              </a>
+              </div>
+              <div class="tittle-product">
+                <a href="./access/html/product-item.html">MATCHA ĐÁ XÂY</a>
+              </div>
+              <div class="price">
+                <p>65.000 Đ</p>
+              </div>
+              <div class="order">
+                <button class="btn-order btn">
+                  <a href="./access/html/order.html"> MUA NGAY</a>
+                </button>
+              </div>
+            </div>
+            <!----------------------6------------------------->
+            <div class="menu-content_6 product">
+              <div class="picture-product">
+                <a href="./access/html/product-item.html"></a>
+                <img
+                  src="./access/img/Menu/Thuc-Uong-Trai-Cay/sinh-to-viet-quoc_bd95abd5bf84451e8ee0c8cef031432c_large.webp"
+                  alt=""
+                />
+              </div>
+              <div class="tittle-product">
+                <a href="./access/html/product-item.html">SINH TỐ VIỆT QUỐC</a>
+              </div>
+              <div class="price">
+                <p>50.000 Đ</p>
+              </div>
+              <div class="order">
+                <button class="btn-order btn">
+                  <a href="./access/html/order.html"> MUA NGAY</a>
+                </button>
+              </div>
+            </div>
+            <!----------------------7------------------------->
+            <div class="menu-content_7 product">
+              <div class="picture-product">
+                <a href="./access/html/product-item.html">
+                <img
+                  src="./access/img/Menu/Tra-Trai-Cay/tra_dao_5f3925d9bfca4d0abc17f95b05fff5f7_large.jpg"
+                  alt=""
+                />
+              </a>
+              </div>
+              <div class="tittle-product">
+                <a href="./access/html/product-item.html">TRÀ ĐÀO CAM SẢ</a>
+              </div>
+              <div class="price">
+                <p>45.000 Đ</p>
+              </div>
+              <div class="order">
+                <button class="btn-order btn">
+                  <a href="./access/html/order.html"> MUA NGAY</a>
+                </button>
+              </div>
+            </div>
+            <!----------------------8------------------------->
+            <div class="menu-content_8 product">
+              <div class="picture-product">
+                <a href="./access/html/product-item.html">
+                <img
+                  src="./access/img/Menu/Tra-Trai-Cay/macca_d56d5ab8dde4455aa7f19d29b5fff763_large.jpg"
+                  alt=""
+                />
+              </a>
+              </div>
+              <div class="tittle-product">
+                <a href="./access/html/product-item.html">CAM SỮA</a>
+              </div>
+              <div class="price">
+                <p>45.000 Đ</p>
+              </div>
+              <div class="order">
+                <button class="btn-order btn">
+                  <a href="./access/html/order.html"> MUA NGAY</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- layout blog-->
+  
+        <div class="blog-layout">
+          <div class="blog-header">
+            <div class="blog-tittle">
+              <a href="./access/html/blog.html">FOUR SEASONS BULLETIN BOARD</a>
+            </div>
+          </div>
+          <!---blog slider-->
+          <div class="blog-content">
+            <!--slider------------------->
+            <ul id="autoWidth" class="cs-hidden">
+              <!--1------------------------------>
+              <li class="item-a">
+                <!--slider-box-->
+                <div class="box">
+                  <!--model-->
+                  <a href="./access/html/blog-item.html"
+                    ><img src="./access/img/Blog/Coffee-1.jpg"
+                  /></a>
+                  <!--details-->
+                  <div class="details">
+                    <!--Tittle blog content-->
+                    <div class="header-tittle-content"></div>
+                    <a href="./access/html/blog-item.html"><h1>CUP OF COFFEE IN SPRING</h1></a>
+                    <!--character-details-->
+                    <div class="content-summarize">
+                      <p>
+                        Come to Solitude Coffee to enjoy
+                        
+                        the cozy atmosphere in spring
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <!--2------------------------------>
+              <li class="item-a">
+                <!--slider-box-->
+                <div class="box">
+                  <!--model-->
+                  <a href="./access/html/blog-item.html"
+                    ><img src="./access/img/Blog/Coffee-2.jpg"
+                  /></a>
+                  <!--details-->
+                  <div class="details">
+                    <!--Tittle blog content-->
+                    <a href="./access/html/blog-item.html"><h1>CUP OF COFFEE IN SUMMER</h1></a>
+                    <!--character-details-->
+                    <p>
+                        The annual summer coffee festival
+                        
+                        is set to take place on May 25
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <!--3------------------------------>
+              <li class="item-a">
+                <!--slider-box-->
+                <div class="box">
+                  <!--model-->
+                  <a href="./access/html/blog-item.html"
+                    ><img src="./access/img/Blog/Coffee-3.jpg"
+                  /></a>
+                  <!--details-->
+                  <div class="details">
+                    <!--Tittle blog content-->
+                    <a href="./access/html/blog-item.html"><h1>CUP OF COFFEE IN AUTUMN</h1></a>
+                    <!--character-details-->
+                    <p>
+                      Sitting at Solitude Coffee sipping
+
+                      a cup of coffee and watching the autumn
+
+                      weather is not a bad idea
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <!--4------------------------------>
+              <li class="item-a">
+                <!--slider-box-->
+                <div class="box">
+                  <!--model-->
+                  <a href="./access/html/blog-item.html"
+                    ><img src="./access/img/Blog/Coffee-4.jpg"
+                  /></a>
+                  <!--details-->
+                  <div class="details">
+                    <!--Tittle blog content-->
+  
+                    <a href="./access/html/blog-item.html"><h1>CUP OF COFFEE IN WINTER</h1></a>
+                    <!--character-details-->
+                    <p>
+                        Come to Solitude Coffee to enjoy the cozy atmosphere
+
+                        in the cold air of winter
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <!----->
+              <!--4------------------------------>
+              <li class="item-a">
+                <!--slider-box-->
+                <div class="box">
+                  <!--model-->
+                  <a href="./access/html/blog-item.html"
+                    ><img src="./access/img/Blog/Coffee-4.jpg"
+                  /></a>
+                  <!--details-->
+                  <div class="details">
+                    <!--Tittle blog content-->
+  
+                    <a href="./access/html/blog-item.html"><h1>CUP OF COFFEE IN WINTER</h1></a>
+                    <!--character-details-->
+  
+                    <p>
+                        Come to Solitude Coffee to enjoy the cozy atmosphere
+
+                        in the cold air of winter. Write any you want in here
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+  
+        <!----Layout Store-->
+        <div class="layout-store"  id="store">
+          <div class="main-branch">
+            <section class="content-store">
+              <h1>SOLITUDE COFFEE MAIN STORE</h1>
+              <p>With dedicated roasters and a team of talented Baristas
+                
+                with inspiring coffee stories, Solitude Coffee is a dedicated
+                
+                space for those who fall in love with 
+                
+                the taste of delicious coffee beans.</p>
+            </section>
+            <div class="main-branch--img"> </div>
+          </div>
+          <div class="other-branch"></div>
+        </div>
+      </main>
+      <footer id="contact">
+        <div class="footer-content">
+          <section class="footer-logo">
+            <img src="./access/img/IconLogo/Icon-logo4.jpg" alt="">
+            <div class="logo-name">
+              <span >SOLITUDE COFFEE </span>
+            </div>
+  
+          </section>
+          <section class="footer-about">
+            <h1>OTHER</h1>
+            <a href="./access/html/story.html">About</a>
+            <a href="#">Job Oppotunity</a>
+            <a href="#store">Store</a>
+          </section>
+          <section class="footer-social">
+            <h1>CONNECT</h1>
+            <div>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </section>
+          <section class="footer-supporter">
+            <h1>SUPPORT</h1>
+            <p>
+                <b>HOT-LINE</b><br><br>
+                +846464 064 064  (07:00-21:00)<br><br>
+                <b>Address</b><br> <br>
+                215 Lê Bình, Quận Ninh Kiều, Thành phố Cần Thơ, Việt Nam.<br><br>
+                support@Solitudecoffee.vn<br>
+                </p>
+          </section>
+          <section class="footer-end">
+            <hr class="line-end">
+            <p>© 2023. All Right Reserved. Solitude Coffee</p>
+          </section>
+        </div>
+  
+      </footer>
+    </body>
+</html>
